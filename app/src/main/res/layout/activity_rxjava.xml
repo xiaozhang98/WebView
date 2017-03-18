@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rxjava"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="webview.xiaozhang.com.webview.RXjavaActivity">
+
+    <Button
+    android:text="Button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:onClick="demo1"
+    android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:text="demo_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="demo_map"
+        android:id="@+id/demo_map"
+        android:layout_marginBottom="11dp"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_toEndOf="@+id/button2" />
+
+    <Button
+        android:text="demo_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="demo_on"
+        android:id="@+id/button2"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="73dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:text="demo_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="demo_zip"
+        android:id="@+id/demo_zip"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/demo_map"
+        android:layout_alignLeft="@+id/demo_map"
+        android:layout_alignStart="@+id/demo_map" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="demo1_just"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="71dp" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="demo1_from"
+        android:id="@+id/button3"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/demo_zip"
+        android:layout_alignEnd="@+id/demo_zip" />
+
+    <Button
+        android:text="demo_sample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="demo_sample"
+        android:id="@+id/button7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <Button
+        android:text="flowable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="flowable"
+        android:layout_alignBaseline="@+id/demo_zip"
+        android:layout_alignBottom="@+id/demo_zip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button8" />
+</RelativeLayout>
